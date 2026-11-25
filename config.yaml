@@ -1,0 +1,21 @@
+seed: 42
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  valid_ratio: 0.15  # train 15만 개 중 15%를 valid로 분리
+
+vocab:
+  min_freq: 3        # 최소 3번 이상 등장한 토큰만 어휘에 포함
+  max_vocab_size: 20000
+  vocab_path: "outputs/vocab.json"
+
+model:
+  embed_dim: 128
+  hidden_dim: 128
+  num_layers: 1
+  dropout: 0.3
+  max_len: 60        # 리뷰 최대 토큰 길이
+  batch_size: 128
+  epochs: 5
+  lr: 0.001
