@@ -1,4 +1,0 @@
-﻿Model,Factor,Test_Accuracy(%),Test_Macro_F1(%)
-Model A (Naive Bayes Baseline),BoW + MultinomialNB,83.47,83.47
-Model B (Bi-LSTM),Kiwi 형태소 (정규화 X),86.23,86.22
-Model C (Bi-LSTM + Norm),Kiwi 형태소 + 구어체 반복문자 정규화,86.43,86.43
